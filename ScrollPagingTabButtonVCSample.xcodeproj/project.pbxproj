@@ -12,6 +12,9 @@
 		A2809B2121B9033700FBFFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2809B1F21B9033700FBFFC5 /* Main.storyboard */; };
 		A2809B2321B9033A00FBFFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2809B2221B9033A00FBFFC5 /* Assets.xcassets */; };
 		A2809B2621B9033A00FBFFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2809B2421B9033A00FBFFC5 /* LaunchScreen.storyboard */; };
+		A2809B2E21B9044600FBFFC5 /* ScrollPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2809B2D21B9044600FBFFC5 /* ScrollPagingViewController.swift */; };
+		A2809B3521B9089E00FBFFC5 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2809B3321B9089E00FBFFC5 /* ContentsView.swift */; };
+		A2809B3621B9089E00FBFFC5 /* ContentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2809B3421B9089E00FBFFC5 /* ContentsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A2809B2221B9033A00FBFFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2809B2521B9033A00FBFFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2809B2721B9033A00FBFFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2809B2D21B9044600FBFFC5 /* ScrollPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPagingViewController.swift; sourceTree = "<group>"; };
+		A2809B3321B9089E00FBFFC5 /* ContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
+		A2809B3421B9089E00FBFFC5 /* ContentsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				A2809B1B21B9033700FBFFC5 /* AppDelegate.swift */,
 				A2809B1D21B9033700FBFFC5 /* ViewController.swift */,
+				A2809B3321B9089E00FBFFC5 /* ContentsView.swift */,
+				A2809B3421B9089E00FBFFC5 /* ContentsView.xib */,
+				A2809B2D21B9044600FBFFC5 /* ScrollPagingViewController.swift */,
 				A2809B1F21B9033700FBFFC5 /* Main.storyboard */,
 				A2809B2221B9033A00FBFFC5 /* Assets.xcassets */,
 				A2809B2421B9033A00FBFFC5 /* LaunchScreen.storyboard */,
@@ -124,6 +133,7 @@
 			files = (
 				A2809B2621B9033A00FBFFC5 /* LaunchScreen.storyboard in Resources */,
 				A2809B2321B9033A00FBFFC5 /* Assets.xcassets in Resources */,
+				A2809B3621B9089E00FBFFC5 /* ContentsView.xib in Resources */,
 				A2809B2121B9033700FBFFC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +147,8 @@
 			files = (
 				A2809B1E21B9033700FBFFC5 /* ViewController.swift in Sources */,
 				A2809B1C21B9033700FBFFC5 /* AppDelegate.swift in Sources */,
+				A2809B3521B9089E00FBFFC5 /* ContentsView.swift in Sources */,
+				A2809B2E21B9044600FBFFC5 /* ScrollPagingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
